@@ -1,0 +1,333 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    box-sizing: border-box;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+nav{
+display: flex;
+justify-content: center;
+gap: 20px;
+background-color: #f4f4f4;
+position: fixed;
+width: 100%;
+margin: 0;
+align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+   border-bottom: 1px solid red;
+}
+nav a:focus{
+    background-color: rgba(0, 0, 0, 0.534);
+}
+.logo{
+    margin-top: 1%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+}
+.banner{
+    background: url('../image/fond.jpg');
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+   text-align: center;
+   background-position: center;
+   width: 100%;
+   margin: 0 !important;
+}
+.center{
+    padding-top: 20%;
+   color: white;
+}
+.center a{
+    color: gray;
+    text-decoration: none;
+    margin-left: 10px; 
+}
+.search{
+width: 20%;
+height: 30px;
+background: blue;
+border: none;
+}
+#search{
+    height: 10px;
+    border: none;
+}
+.agence{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+ 
+
+}
+.enfant1{
+    background-image: url(../image/piscine.jpeg);
+  color: aliceblue;
+    opacity: 1.5;
+    background-repeat: no-repeat;
+ 
+   
+}
+.piscine{
+   
+    display: flex;
+    flex: 1;
+    height: 37vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+ 
+    transition: 0.7s;
+}
+.piscine:hover{
+    background-color: rgba(0, 0, 0, 0.349);
+}
+.enfant2{
+    background: url('../image/5biens.jpeg');
+   background-repeat: no-repeat;
+
+   color: aliceblue;
+}
+.enfant3{
+    background: url('../image/appartement.jpeg');
+  background-repeat: no-repeat;
+color: aliceblue;
+   
+}
+
+.enfant4{
+    background: url('../image/produits.jpeg');
+    background-repeat: no-repeat;
+  
+   
+}
+.bienvenu{
+  display: flex;
+    gap: 20px;
+justify-content: space-between;
+    
+    color: aliceblue;
+    margin-top: 20px;
+}
+.bienvenu div{
+    flex: 1;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+}
+.service{
+    text-align: center;
+
+}
+.services{
+    background-color: white;
+  width: 100%;
+ padding: 5% 5%;
+  margin-bottom: 20px;
+ text-align: center;
+ box-shadow: 8px 8px 8px gray;
+ 
+}
+.grand-service{
+    display: flex;
+   justify-content: center;
+    gap: 30px;
+    
+ margin-left: 2%;
+}
+.numero{
+    background-color: white;
+    width: 150px;
+   padding: 5% 5%;
+    margin-bottom: 20px;
+   text-align: center;
+   box-shadow: 8px 8px 8px gray; 
+}
+.contact{
+        display: flex;
+   justify-content: center;
+    gap: 30px;
+    margin-left: 2%;
+
+}
+.icon{
+    
+    display: none;
+    flex-direction: column;
+    
+}
+iframe{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+   padding: 5% 5%;
+    margin-bottom: 20px;
+   text-align: center;
+   box-shadow: 8px 8px 8px gray; 
+   text-align: center;
+   width: 100%;
+}
+textarea , input{
+    width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+}
+#button{
+   margin-left: 10%;
+    text-align: center;
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+background-color: blue;
+border: none;
+color: aliceblue;
+}
+i{
+font-size: 5em;
+color: red;
+}
+nav ul{
+    display: flex;
+}
+#tel , #email , #heure , #geographie{
+    font-size: 2em;
+}
+@media (max-width:1000px) {
+    body{
+        transition: background-color 0.5s;
+    }
+  nav #menu{
+    display: none;
+    height: 100%;
+    width:  100%;
+    background: rgba(255, 255, 255, 0.87);
+    position: absolute;
+    top: 30px;;
+    right: 0;
+   
+    flex-direction: column;
+    padding-bottom: 100vh;
+  }
+ .grand-service{
+    flex-direction: column;
+   
+    margin: 0 !important;
+    
+    
+  }
+  .services{
+   width: 100%;
+   padding-top:  10%;
+   padding-bottom:  10%;
+    margin: 0 !important;
+  }
+ 
+  nav li a:hover{
+    border-bottom: 1px solid red;
+    width: 100px;
+  
+   
+  }
+.icon{
+    display: block;
+    flex-direction: column;
+    cursor: pointer;
+}
+#icons{
+    font-size: 30px;
+    margin-right: 20px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+
+   
+}
+.numero{
+    width: 100% !important;
+    padding-top:  10%;
+    padding-bottom:  10%;
+     margin: 0 !important;
+     
+}
+.bienvenu{
+ 
+ flex-direction: column;
+    
+    
+}
+h1,h2{
+    font-size: 17px;
+}
+}
+footer{
+    background-color: rgb(85, 77, 77);
+width: 100%;
+padding-bottom: 2%;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+/*Responsive des grands ecran*/
+@media (max-width:1200px) {
+    body{
+        margin: 0;
+        
+    }
+    .numero{
+        width: 138px;
+        margin: 0;
+       
+    }
+    .contact{
+        gap: 10px;
+        margin: 0;
+    }
+.icon{
+    cursor: pointer;
+}
+}
+@media (max-width:650px) {
+    h1,h2{
+        font-size: 10px;
+    }
+    .logo{
+        font-size: 15px;
+    }
+    .icon{
+        cursor: pointer;
+    }
+}
+@media (max-width:300px) {
+    .icon{
+        cursor: pointer;
+    }
+    .logo{
+        font-size: 8px;
+    }
+        nav ul{
+gap: 10px;
+
+        font-size: 8px;
+    }
+}
