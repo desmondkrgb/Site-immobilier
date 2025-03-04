@@ -36,7 +36,7 @@ nav a:focus{
     font-size: 150%;
 }
 .banner{
-    background: url('../image/fond.jpg');
+    background: url('fond.jpg');
   
     background-size: cover;
     background-repeat: no-repeat;
@@ -74,7 +74,7 @@ border: none;
 
 }
 .enfant1{
-    background-image: url(../image/piscine.jpeg);
+    background-image: url(piscine.jpeg);
   color: aliceblue;
     opacity: 1.5;
     background-repeat: no-repeat;
@@ -97,20 +97,20 @@ border: none;
     background-color: rgba(0, 0, 0, 0.349);
 }
 .enfant2{
-    background: url('../image/5biens.jpeg');
+    background: url('5biens.jpeg');
    background-repeat: no-repeat;
 
    color: aliceblue;
 }
 .enfant3{
-    background: url('../image/appartement.jpeg');
+    background: url('appartement.jpeg');
   background-repeat: no-repeat;
 color: aliceblue;
    
 }
 
 .enfant4{
-    background: url('../image/produits.jpeg');
+    background: url('produits.jpeg');
     background-repeat: no-repeat;
   
    
